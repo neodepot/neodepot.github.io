@@ -1,1 +1,17 @@
-Wake up neo
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>NEO Transaction Analyzer</title>
+  </head>
+  <body>
+    <h1>NEO Transaction Analyzer</h1>
+    <form id="tx-form">
+      <label for="txid">Transaction ID:</label>
+      <input type="text" id="txid" size="70" required />
+      <button type="submit">Analyze</button>
+    </form>
+    <pre id="output"></pre>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
