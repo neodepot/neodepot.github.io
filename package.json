@@ -1,0 +1,22 @@
+{
+  "name": "neodepot.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^7.0.5"
+  },
+  "dependencies": {
+    "@cityofzion/neon-core": "^5.7.0",
+    "@cityofzion/neon-dappkit": "^0.6.0"
+  }
+}
