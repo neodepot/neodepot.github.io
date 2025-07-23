@@ -1,5 +1,7 @@
-import { rpc, sc } from "https://esm.sh/@cityofzion/neon-js@5.7.0";
+import Neon from "https://esm.sh/@cityofzion/neon-js@5.7.0";
 import { NeonParser } from "https://esm.sh/@cityofzion/neon-dappkit@0.6.0";
+
+const { rpc, sc } = Neon;
 
 const form = document.getElementById('tx-form');
 const output = document.getElementById('output');
