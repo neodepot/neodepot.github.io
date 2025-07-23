@@ -1,4 +1,4 @@
-import { rpc, sc } from "@cityofzion/neon-core";
+import { rpc, sc } from "@cityofzion/neon-js";
 import { NeonParser } from "@cityofzion/neon-dappkit";
 
 const form = document.getElementById('tx-form');
